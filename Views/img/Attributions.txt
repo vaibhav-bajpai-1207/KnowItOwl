@@ -1,0 +1,11 @@
+heart
+<a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Vlad Szirka - Flaticon</a>
+
+logo
+<a href="https://www.flaticon.com/free-icons/owl" title="owl icons">Owl icons created by Smashicons - Flaticon</a>
+
+User icon
+<a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+
+Search Icon
+https://icons8.com/icon/dmmKDmS3gJGy/search

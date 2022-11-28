@@ -1,0 +1,22 @@
+{
+  "name": "completeblog",
+  "version": "1.0.0",
+  "description": "This is a Blog Website where you can write blogs and meet and follow others like you",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaibhav Bajpai",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "markdown-it": "^13.0.1",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.20",
+    "slugify": "^1.6.5"
+  }
+}

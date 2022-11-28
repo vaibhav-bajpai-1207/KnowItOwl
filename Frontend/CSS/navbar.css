@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #201A23;
+}
+
+:root{
+    --nav-bg-col: #110C14;
+    --catch-col: #FF845A;
+    --primary-font: 'Poppins', sans-serif;
+    --nav-link-col: #D3D3D3;
+    font-size: 14px;
+}
+
+/* Navbar CSS */
+.navbar{
+    background-color: var(--nav-bg-col);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+/* LeftNav CSS Start */
+#nav-logo{
+    width: 10vw;
+}
+/* LeftNav CSS end */
+
+/* midnav css start */
+.mid-nav{
+    /* border: 2px solid white; */
+    width: 20%;
+}
+.mid-nav form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #201A23;
+    border-radius: 0.2rem;
+    width: 100%;
+}
+.nav-search-input{
+    border: none;
+    outline: none;
+    background-color: #201A23;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+    color: var(--nav-link-col);
+    font-family: var(--primary-font);
+    width: 80%;
+}
+
+.nav-search-btn{
+    background-color: #110c1400;
+    border: none;
+    /* padding: 0 0.2rem; */
+    outline: none;
+    cursor: pointer;
+    background-color:#201A23;
+    /* border: 2px solid red; */
+}
+.nav-search-btn img{
+    height: 1.6vw;
+}
+/* midnav css end */
+
+/* rightnav css start */
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.nav-link{
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color: var(--nav-link-col);
+    transition: 0.2s ease;
+    /* margin: 0 0.2rem; */
+}
+.nav-link:hover{
+    color: white;
+}
+.highlight{
+    color: var(--catch-col);
+}
+.highlight:hover{
+    color: var(--catch-col);
+}
+#nav-user-icon{
+    width: 2vw;
+}
+/* rightnav css end*/
